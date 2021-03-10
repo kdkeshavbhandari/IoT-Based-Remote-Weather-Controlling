@@ -1,0 +1,12 @@
+function Decoder(bytes, port) {
+  var a = (bytes[2]);
+  var b = (bytes[3]);
+  
+  return {
+    temperature:a,
+    humidity:b
+  };
+}
+
+
+
